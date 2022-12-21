@@ -13,7 +13,7 @@ const port: number = Number(process.env.PORT) || 3000;
 app.use(express.json({ limit: "20kb", strict: true, type: "application/json" }));
 
 app.get('/', (req: Request, res: Response) => {
-    res.send('Hello World!');
+    res.send('Hello World! Server is live');
 });
 
 app.use("/start", starterRouter)
