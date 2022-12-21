@@ -10,3 +10,8 @@ export type santaDetails = {
     santa: UserDetails;
     receiver: UserDetails;
 }
+
+export type santaIdentifiers = {
+    santa: string;
+    receiver: string;
+}
